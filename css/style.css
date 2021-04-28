@@ -623,6 +623,348 @@ margin: 8px;
 color: #D2D2D2;
 }
 
+/*==========================================view cart button=========================================================*/
+
+.Add-cart-history{
+	width: 100%;
+}
+.add-cart-details{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.cart-heading-return{
+	display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #DDDDDD;
+}
+.cart-history-heading{
+	flex-basis: 52%;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.cart-history-heading h1{
+	margin: 0px;
+	font-family: sans-serif;
+}
+.cart-history-heading p{
+	margin-right: -17px;
+	font-family: sans-serif;
+}
+
+.cart-return{
+	flex-basis: 48%;
+    justify-content: flex-end;
+    display: flex;
+
+}
+.cart-return p{
+font-family: sans-serif;
+font-size: 14px;
+}
+
+.main-cart-details{
+	width: 100%;
+}
+.cart-details{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.cart-details .cart-left-details{
+	flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cart-details .cart-left-details .search-field-btn{
+	display: flex;
+	margin:20px 0px;
+}
+.cart-details .cart-right-details{
+	flex-basis: 79%;
+}
+.search-field input{
+	width: 150px;
+    height: 30px;
+}
+.search-btn button{
+height: 36px;
+    margin-left: 10px;
+    width: 100px;
+    background-color: rgba(197,26,32,1.2);
+    border: none;
+    color: white;	
+}
+.recent-comment h1{
+	    margin: 0px;
+    font-weight: 100;
+    height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-top: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+}
+.archieves h1{
+	 margin: 0px;
+    font-weight: 100;
+    height: 40px;
+    font-size: 18px;
+     border-top: 1px solid #DDDDDD;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+.categories h1{
+	 margin: 0px;
+    font-weight: 100;
+    height: 40px;
+    font-size: 18px;
+     border-top: 1px solid #DDDDDD;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+.categories p{
+	
+    font-size: 14px;
+       font-family: sans-serif;}
+ 
+.meta h1{
+	margin: 0px;
+    font-weight: 100;
+    height: 40px;
+    font-size: 18px;
+     border-top: 1px solid #DDDDDD;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+.meta-login h1{
+	margin: 0px;
+    font-weight: 100;
+    height: 40px;
+    font-size: 16px;
+     border-top: 1px solid #DDDDDD;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+.cart-details .cart-right-details {
+    flex-basis: 79%;
+    display: flex;
+    justify-content: center;
+       flex-wrap: wrap;
+    height: 285px;
+
+}
+
+thead tr th:nth-child(1){
+	    border-bottom: 1px solid #DDDDDD;
+    height: 40px;
+    width: 150px;
+    font-family: sans-serif;
+    border-right: 1px solid #DDDDDD;
+}
+thead tr th:nth-child(2){
+	    border-bottom: 1px solid #DDDDDD;
+    height: 40px;
+    width: 150px;
+    font-family: sans-serif;
+    border-right: 1px solid #DDDDDD;
+}
+thead tr th:nth-child(3){
+	    border-bottom: 1px solid #DDDDDD;
+    height: 40px;
+    width: 150px;
+    font-family: sans-serif;
+    border-right: 1px solid #DDDDDD;
+}
+thead tr th:nth-child(4){
+	    border-bottom: 1px solid #DDDDDD;
+    height: 40px;
+    width: 150px;
+    font-family: sans-serif;
+    border-right: 1px solid #DDDDDD;
+}
+thead tr th:nth-child(5){
+	    border-bottom: 1px solid #DDDDDD;
+    height: 40px;
+    width: 150px;
+    font-family: sans-serif;
+   
+}
+thead tr{
+	height: 45px;
+
+}
+table{
+    border: 1px solid #DDDDDD;
+    height: 170px;
+}
+tbody tr td:nth-child(1){
+	 border-right: 1px solid #DDDDDD;
+}
+tbody tr td:nth-child(2){
+	 border-right: 1px solid #DDDDDD;
+}
+tbody tr td:nth-child(3){
+	 border-right: 1px solid #DDDDDD;
+}
+tbody tr td:nth-child(4){
+	 border-right: 1px solid #DDDDDD;
+}
+tbody tr td:nth-child(5){
+
+}
+
+.cart-right-details .search-btn{
+	display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+ 
+    height: 230px;
+}
+
+.delete-btn{
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete-btn button{
+	   
+    height: 36px;
+    width: 80px;
+    background-color: rgba(197,26,32,1.2);
+    border: none;
+    color: white;
+    text-decoration: none;	
+}
+.cart-detail-column
+{
+	    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 100%;
+}
+.coupon-field-btn{
+	display: flex;
+	    height: 100px;
+    align-items: center;
+}
+.cart-detail-column-left{
+	flex-basis: 50%;
+}
+.cart-detail-column-right{
+	flex-basis: 50%;
+}
+.column-right-sub-total{
+	    display: flex;
+    justify-content: space-between;
+        border-bottom: 1px solid #DDDDDD;
+}
+.column-right-total{
+	    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+}
+.cart-detail-column-left-margin{
+	margin: 0px 80px;
+}
+.cart-detail-column-right-margin{
+	margin: 0px 85px;
+}
+.column-left-heading h1{
+	    border-bottom: 2px solid;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+
+.coupon-search-field input{
+	width: 150px;
+    height: 30px;
+}
+.coupon-search-btn button{
+height: 36px;
+    margin-left: 10px;
+    width: 100px;
+    background-color: rgba(197,26,32,1.2);
+    border: none;
+    color: white;	
+}
+.column-right-heading h1{
+	  border-bottom: 2px solid;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.column-right-sub-total h1{
+	 border-bottom: none;
+	  font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    
+}
+.column-right-total h1{
+ border-bottom: none;
+	  font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+.column-right-btn {
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.column-right-btn button{
+	height: 36px;
+    width: 150px;
+  background-color: rgba(47,84,97,1.2);
+    border: none;
+    color: white;
+    text-decoration-line: none;
+
+}
+
+.column-right-btn a{
+	text-decoration: none;
+}
+/*=============================================checkout==========================================================*/
+.cart-hist-heading{
+	flex-basis: 52%;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.cart-hist-heading h1{
+	margin: 0px;
+	font-family: sans-serif;
+}
+.cart-hist-heading p{
+	margin-right: 0px;
+	font-family: sans-serif;
+}
+
 
 /*==========================================Shirts-page=========================================================*/
 

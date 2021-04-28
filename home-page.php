@@ -31,15 +31,15 @@
 			<div class="logo-nav">
 				<div class="main-social-media">
 					<div class="social-media">
-						<i class="fa fa-facebook"></i>
-						<i class="fa fa-google"></i>
-						<i class="fa fa-instagram"></i>
-						<i class="fa fa-twitter"></i>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-google"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
 						
 					</div>
 				</div>
 			<div class="logo">
-				   <img src="logo.png" alt="logo">
+				   <img src="./images./logo.png" alt="logo">
 				
 			</div>
 			<div class="add-cart-main">
@@ -148,14 +148,14 @@
 			
 
 			<div class="slider-content">
-			  <img class="mySlides" src="mens-fashion.jpg" >
-			  <img class="mySlides" src="mens-t-shirts.png" >
-			  <img class="mySlides" src="mens-polo-shirts.png" >
+			  <img class="mySlides" src="./images./mens-fashion.jpg" >
+			  <img class="mySlides" src="./images./mens-t-shirts.png" >
+			  <img class="mySlides" src="./images./mens-polo-shirts.png" >
 			</div>
 
 			<div class="slider-right">
-					<img src="mens-hoodi.jpg">
-				<img src="singles-day.jpg">
+					<img src="./images./mens-hoodi.jpg">
+				<img src="./images./singles-day.jpg">
 				
 			</div>
 
@@ -168,7 +168,7 @@
 <section class="heading-line">
 	<h1>LATEST PRODUCT</h1>
 </section>
-<section class="">
+<section class="card-section">
 <?php
 include'config.php';
 $sql=mysqli_query($conn,"SELECT * FROM `products`");
@@ -179,7 +179,7 @@ $image=$row['image'];
 	$price=$row['price'];
 	$discount=$row['discount'];
   ?>
-
+  	<div class="card-main-section">
 	<div class="card-section">
 	<div class="product-sec">
 
@@ -199,7 +199,7 @@ $image=$row['image'];
 				</div>
 			</div>
 				</div>
-				
+		</div>		
 				
 				
 				
@@ -212,24 +212,24 @@ $image=$row['image'];
 		<div class="container">
 			<div class="product-head">
 				<div class="first-product">
-					<div class="Mens-Polos-up">
-					<img src="Mens-Polos.jpg">
+					<div class="./images./Mens-Polos-up">
+					<img src="./images./Mens-Polos.jpg">
 					</div>
 					<div class="Mens-Polos-down">
-					<img src="Mens-Denim-Jeans.jpg">
+					<img src="./images./Mens-Denim-Jeans.jpg">
 					</div>
 				</div>
 				<div class="middle-product">
 					<div class="middle-product-hover">
-					 <img src="mens-wear-sale.jpg">
+					 <img src="./images./mens-wear-sale.jpg">
 					</div>
 				</div>
 				<div class="end-product">
 					<div class="end-product-up">
-					<img src="mens-formal.jpg">
+					<img src="./images./mens-formal.jpg">
 					</div>
 					<div class="end-product-down">
-					<img src="Mens-chinos.jpg">
+					<img src="./images./Mens-chinos.jpg">
 					</div>
 				</div>
 
@@ -243,7 +243,7 @@ $image=$row['image'];
 	<h1>LATEST PRINTED T-SHIRTS</h1>
 </section>
 
-<section class="card-section">
+<section class="card-section1">
 	<?php
 include'config.php';
 $sql=mysqli_query($conn,"SELECT * FROM `products`");
@@ -282,7 +282,7 @@ $image=$row['image'];
 	<div class="main-discount-offer">
 		<div class="container">
 			<div class="discount-offer">
-				<img src="mens-wear-discount.jpg">
+				<img src="./images./mens-wear-discount.jpg">
 			</div>
 		</div>
 	</div>
@@ -291,11 +291,10 @@ $image=$row['image'];
 	<h1>LATEST JEANS</h1>
 </section>
 
-<section class="card-section">
-	<div class="product-sec">
-				
-				<div class="card1">
-					<div class="card1-desc">
+<section class="card-section2">
+
+  <div class="product-sec">
+	
 						<?php
 include'config.php';
 $sql=mysqli_query($conn,"SELECT * FROM `latest jeans`");
@@ -307,6 +306,10 @@ $image=$row['image'];
 	$discount=$row['discount'];
 
   ?>
+
+				
+				<div class="card1">
+					<div class="card1-desc">
 					<img src="<?php echo $image  ?> ">
                       
 						
@@ -315,10 +318,12 @@ $image=$row['image'];
 						<span  class="discount"><?php echo $discount ?></span>
 						<div class="card-btn">
 							<button name="click">Add to Cart</button>
-						<?php }?>
 						</div>
 					</div>
 				</div>
+						<?php }?>
+						
+
 				
 				
 				</div>				
@@ -333,28 +338,28 @@ $image=$row['image'];
 		<div class="container">
 			<div class="brands-logos">
 				<div class="sub-brands-logo">
-					<img src="appearl-logo.png">
+					<img src="./images./appearl-logo.png">
 				</div>
 				<div class="sub-brands-logo">
-					<img src="aerosoft-logo.png">
+					<img src="./images./aerosoft-logo.png">
 				</div>
 				<div class="sub-brands-logo">
-					<img src="aashi-mens-fashion.jpg">
+					<img src="./images./aashi-mens-fashion.jpg">
 				</div>
 				<div class="sub-brands-logo">
-					<img src="amir-logo.png">
+					<img src="./images./amir-logo.png">
 				</div>
 				<div class="sub-brands-logo">
-					<img src="aerosoft-logo.png">
+					<img src="./images./aerosoft-logo.png">
 				</div>
 				<div class="sub-brands-logo">
-					<img src="aashi-mens-fashion.jpg">
+					<img src="./images./aashi-mens-fashion.jpg">
 				</div>
 				<div class="sub-brands-logo">
-					<img src="amir-logo.png">
+					<img src="./images./amir-logo.png">
 				</div>
 				<div class="sub-brands-logo">
-					<img src="appearl-logo.png">
+					<img src="./images./appearl-logo.png">
 				</div>
 
 			</div>
@@ -389,7 +394,7 @@ $image=$row['image'];
 			</div>
 		</div>
 	</div>
-	
+	b
 </section>
 
 <footer>
@@ -402,10 +407,11 @@ $image=$row['image'];
 			</div>
 			<div class="footer-sec-right">
 					<div class=" footer-social-media">
-						<i class="fa fa-facebook"></i>
-						<i class="fa fa-google"></i>
-						<i class="fa fa-instagram"></i>
-						<i class="fa fa-twitter"></i>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-google"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+
 						
 					</div>
 			</div>
